@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="BROWSER" value="CHROME" />
+	<parameter name="ENV" value="local" />
+	<parameter name="Username" value="shruthi" />
+	<test name="Test1">
+		<classes>
+			<class name="com.mytheresa.testautomation.AppTest">
+				<methods>
+					<include name="aJavaScriptLogs" />
+					<include name="bResponseCode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
